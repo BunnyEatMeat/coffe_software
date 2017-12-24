@@ -1,0 +1,7 @@
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\DAO\bin\Debug\DAO.dll
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\DAO\bin\Debug\DAO.pdb
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\DAO\obj\Debug\DAO.dll
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\DAO\obj\Debug\DAO.pdb
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\DAO\bin\Debug\DTO.dll
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\DAO\bin\Debug\DTO.pdb
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache

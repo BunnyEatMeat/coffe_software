@@ -1,0 +1,12 @@
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\GUI\bin\Debug\GUI.exe
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\GUI\bin\Debug\GUI.pdb
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\GUI\obj\x86\Debug\GUI.Form1.resources
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\GUI\obj\x86\Debug\GUI.exe
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\GUI\obj\x86\Debug\GUI.pdb
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\GUI\bin\Debug\DAO.dll
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\GUI\bin\Debug\DTO.dll
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\GUI\bin\Debug\DAO.pdb
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\GUI\bin\Debug\DTO.pdb
+C:\Users\Rio.Rai\Documents\coffe_software\sft_coffe\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache

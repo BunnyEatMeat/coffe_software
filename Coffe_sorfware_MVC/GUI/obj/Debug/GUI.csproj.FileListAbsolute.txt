@@ -1,0 +1,9 @@
+c:\users\rio.rai\documents\visual studio 2013\Projects\Coffe_sorfware_MVC\GUI\bin\Debug\GUI.exe.config
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\bin\Debug\GUI.exe.config
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\bin\Debug\GUI.exe
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\bin\Debug\GUI.pdb
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.exe
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.pdb
