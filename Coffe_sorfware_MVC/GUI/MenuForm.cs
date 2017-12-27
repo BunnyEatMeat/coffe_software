@@ -19,31 +19,7 @@ namespace GUI
         {
             InitializeComponent();
             loadDanhSachMonDataGridView();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pnSearch2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void idPrice_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
+            loadDanhSachLoaiMonCombobox();
         }
 
         void loadDanhSachMonDataGridView()
@@ -52,8 +28,14 @@ namespace GUI
 
             foreach(CONTROLELLER.Menu mon in m)
             {
-                dgvFood.Rows.Add(mon.ID, mon.tenMon, mon.loai, mon.gia);
+                dgvMenu.Rows.Add(mon.ID, mon.tenMon, mon.loai, mon.gia);
             }
+        }
+
+        void loadDanhSachLoaiMonCombobox()
+        {
+            cbLoai.SelectedIndex = 0;
+            this.cbLoai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
         }
 
 
