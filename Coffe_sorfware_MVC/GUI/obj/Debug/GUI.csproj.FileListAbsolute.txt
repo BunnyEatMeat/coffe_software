@@ -9,3 +9,8 @@ C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.e
 C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.pdb
 C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.QLHTForm.resources
 C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.frmQLNV.resources
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\bin\Debug\CONTROLELLER.dll
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\bin\Debug\MODEL.dll
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\bin\Debug\CONTROLELLER.pdb
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\bin\Debug\MODEL.pdb
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.MenuForm.resources

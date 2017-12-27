@@ -64,6 +64,9 @@
     <Compile Include="QLHTForm.designer.cs">
       <DependentUpon>QLHTForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QLNVForm.resx">
       <DependentUpon>QLNVForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +94,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CONTROLELLER\CONTROLELLER.csproj">
+      <Project>{024df45e-b2bb-47dc-8c37-0067b1fd68f8}</Project>
+      <Name>CONTROLELLER</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

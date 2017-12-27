@@ -11,31 +11,32 @@ namespace MODEL
 {
     public class Connector
     {
-        string strConn = "";
+        string strConn = @"Data Source=DESKTOP-KKHKH84\SQLEXPRESS;Initial Catalog=coffe_manager;Integrated Security=True";
         SqlConnection cn = null;
         public Connector()
         {
             cn = new SqlConnection(strConn);
         }
-
-        public void connect()
+        public SqlConnection connect()
         {
             try
             {
                 if (cn.State == ConnectionState.Closed)
                     cn.Open();
+                return cn;
             }catch(SqlException ex)
             { 
                 throw ex;
             }
         }
 
-        public void disconnect()
+        public SqlConnection disconnect()
         {
             try
             {
                 if (cn.State == ConnectionState.Open)
                     cn.Close();
+                return cn;
             }catch(SqlException ex)
             { 
                 throw ex;

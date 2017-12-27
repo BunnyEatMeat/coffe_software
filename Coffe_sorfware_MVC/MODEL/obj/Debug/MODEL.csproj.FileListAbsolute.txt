@@ -1,0 +1,5 @@
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\bin\Debug\MODEL.dll
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\bin\Debug\MODEL.pdb
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\obj\Debug\MODEL.dll
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\obj\Debug\MODEL.pdb

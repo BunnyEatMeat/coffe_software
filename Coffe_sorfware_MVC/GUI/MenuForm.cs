@@ -8,13 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using CONTROLELLER;
 namespace GUI
 {
     public partial class MenuForm : Form
     {
+        MenuController menu = new MenuController();
+
         public MenuForm()
         {
             InitializeComponent();
+            loadDanhSachMonDataGridView();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -41,5 +45,17 @@ namespace GUI
         {
 
         }
-    }
+
+        void loadDanhSachMonDataGridView()
+        {
+            List<CONTROLELLER.Menu> m = menu.getDSMenu();
+
+            foreach(CONTROLELLER.Menu mon in m)
+            {
+                dgvFood.Rows.Add(mon.ID, mon.tenMon, mon.loai, mon.gia);
+            }
+        }
+
+
+    }//end
 }
