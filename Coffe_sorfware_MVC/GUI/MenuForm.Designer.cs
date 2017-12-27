@@ -39,7 +39,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.btnXem = new System.Windows.Forms.Button();
+            this.btnReload = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -156,7 +156,7 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.btnXem);
+            this.panel4.Controls.Add(this.btnReload);
             this.panel4.Controls.Add(this.btnSua);
             this.panel4.Controls.Add(this.btnXoa);
             this.panel4.Location = new System.Drawing.Point(0, 6);
@@ -164,14 +164,16 @@
             this.panel4.Size = new System.Drawing.Size(445, 58);
             this.panel4.TabIndex = 2;
             // 
-            // btnXem
+            // btnReload
             // 
-            this.btnXem.Location = new System.Drawing.Point(267, 8);
-            this.btnXem.Name = "btnXem";
-            this.btnXem.Size = new System.Drawing.Size(107, 47);
-            this.btnXem.TabIndex = 7;
-            this.btnXem.Text = "Xem";
-            this.btnXem.UseVisualStyleBackColor = true;
+            this.btnReload.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnReload.Location = new System.Drawing.Point(267, 8);
+            this.btnReload.Name = "btnReload";
+            this.btnReload.Size = new System.Drawing.Size(107, 47);
+            this.btnReload.TabIndex = 7;
+            this.btnReload.Text = "Refresh";
+            this.btnReload.UseVisualStyleBackColor = true;
+            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
             // btnSua
             // 
@@ -181,6 +183,7 @@
             this.btnSua.TabIndex = 6;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnXoa
             // 
@@ -190,6 +193,7 @@
             this.btnXoa.TabIndex = 5;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // panel2
             // 
@@ -264,6 +268,7 @@
             this.btnThem.TabIndex = 1;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // panel1
             // 
@@ -275,7 +280,7 @@
             // 
             // dgvMenu
             // 
-            this.dgvMenu.AllowUserToDeleteRows = false;
+            this.dgvMenu.AllowUserToOrderColumns = true;
             this.dgvMenu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMenu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column5,
@@ -285,6 +290,7 @@
             this.dgvMenu.Location = new System.Drawing.Point(0, 0);
             this.dgvMenu.Name = "dgvMenu";
             this.dgvMenu.ReadOnly = true;
+            this.dgvMenu.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvMenu.Size = new System.Drawing.Size(442, 251);
             this.dgvMenu.TabIndex = 0;
             // 
@@ -292,25 +298,21 @@
             // 
             this.Column5.HeaderText = "ID";
             this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
             // 
             // Column6
             // 
             this.Column6.HeaderText = "Tên Món";
             this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
             // 
             // Column7
             // 
             this.Column7.HeaderText = "Loại";
             this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
             // 
             // Column8
             // 
             this.Column8.HeaderText = "Giá";
             this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
             // 
             // tcAdmin
             // 
@@ -370,7 +372,7 @@
         private System.Windows.Forms.TextBox txtTenMon;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgvMenu;
-        private System.Windows.Forms.Button btnXem;
+        private System.Windows.Forms.Button btnReload;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;

@@ -32,5 +32,56 @@ namespace MODEL
                 throw ex;
             }
         }
+
+        public void themMenu(string tenMon, int loaiMon, int giaMon)
+        {
+            try
+            {
+                string sqlStr = "insert into MENU(tenMon, gia, loai) values (" + "N'"+ tenMon + "', "+ giaMon+ ", " + loaiMon + ")";
+
+                SqlCommand cmd = new SqlCommand(sqlStr, cn.connect());
+                cmd.ExecuteNonQuery();
+
+                cn.disconnect();
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void xoaMon(int ID)
+        {
+            try
+            {
+                string sqlStr = "DELETE MENU WHERE ID = " + ID;
+
+                SqlCommand cmd = new SqlCommand(sqlStr, cn.connect());
+                cmd.ExecuteNonQuery();
+
+                cn.disconnect();
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void suaMon(int ID,string tenMon, int loaiMon, int giaMon)
+        {
+            try
+            {
+                string sqlStr = "UPDATE MENU Set tenMon = N'" + tenMon + "' , loai = " + loaiMon + " , gia = " + giaMon + " WHERE ID = " + ID;
+
+                SqlCommand cmd = new SqlCommand(sqlStr, cn.connect());
+                cmd.ExecuteNonQuery();
+
+                cn.disconnect();
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+        }
     }//end
 }
