@@ -15,3 +15,4 @@ C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\bin\Debug\CONTR
 C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\bin\Debug\MODEL.pdb
 C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.MenuForm.resources
 C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.EditMenu.resources
+C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\GUI\obj\Debug\GUI.SelectionForm.resources

@@ -35,7 +35,12 @@
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lsvBill = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel3 = new System.Windows.Forms.Panel();
+            this.cbSwitchTable = new System.Windows.Forms.ComboBox();
             this.btnSwitchTable = new System.Windows.Forms.Button();
             this.nudDiscount = new System.Windows.Forms.NumericUpDown();
             this.btnDiscount = new System.Windows.Forms.Button();
@@ -61,7 +66,6 @@
             this.btnTable13 = new System.Windows.Forms.Button();
             this.btnTable14 = new System.Windows.Forms.Button();
             this.btnTable15 = new System.Windows.Forms.Button();
-            this.cbSwitchTable = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -87,7 +91,6 @@
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
             this.adminToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.adminToolStripMenuItem.Text = "Admin";
-            this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
             // 
             // thôngTinTàiKhoảnToolStripMenuItem
             // 
@@ -120,12 +123,34 @@
             // 
             // lsvBill
             // 
+            this.lsvBill.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4});
+            this.lsvBill.FullRowSelect = true;
             this.lsvBill.Location = new System.Drawing.Point(0, 0);
             this.lsvBill.Name = "lsvBill";
             this.lsvBill.Size = new System.Drawing.Size(436, 335);
             this.lsvBill.TabIndex = 0;
             this.lsvBill.UseCompatibleStateImageBehavior = false;
-            this.lsvBill.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            this.lsvBill.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Tên Món:";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Loại:";
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Số Lượng:";
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Giá:";
             // 
             // panel3
             // 
@@ -138,6 +163,14 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(436, 67);
             this.panel3.TabIndex = 3;
+            // 
+            // cbSwitchTable
+            // 
+            this.cbSwitchTable.FormattingEnabled = true;
+            this.cbSwitchTable.Location = new System.Drawing.Point(3, 30);
+            this.cbSwitchTable.Name = "cbSwitchTable";
+            this.cbSwitchTable.Size = new System.Drawing.Size(104, 21);
+            this.cbSwitchTable.TabIndex = 7;
             // 
             // btnSwitchTable
             // 
@@ -172,6 +205,7 @@
             this.btnCheck.TabIndex = 3;
             this.btnCheck.Text = "Thanh toán";
             this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
             // 
             // panel4
             // 
@@ -209,6 +243,7 @@
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // cbFood
             // 
@@ -221,10 +256,14 @@
             // cbBeverage
             // 
             this.cbBeverage.FormattingEnabled = true;
+            this.cbBeverage.Items.AddRange(new object[] {
+            "Thức Uống",
+            "Đồ Dùng"});
             this.cbBeverage.Location = new System.Drawing.Point(3, 3);
             this.cbBeverage.Name = "cbBeverage";
             this.cbBeverage.Size = new System.Drawing.Size(214, 21);
             this.cbBeverage.TabIndex = 0;
+            this.cbBeverage.SelectedIndexChanged += new System.EventHandler(this.cbBeverage_SelectedIndexChanged);
             // 
             // flpTable
             // 
@@ -319,7 +358,6 @@
             this.btnTable8.TabIndex = 7;
             this.btnTable8.Text = "Bàn 8";
             this.btnTable8.UseVisualStyleBackColor = true;
-            this.btnTable8.Click += new System.EventHandler(this.button8_Click);
             // 
             // btnTable9
             // 
@@ -384,15 +422,7 @@
             this.btnTable15.Text = "Bàn 15";
             this.btnTable15.UseVisualStyleBackColor = true;
             // 
-            // cbSwitchTable
-            // 
-            this.cbSwitchTable.FormattingEnabled = true;
-            this.cbSwitchTable.Location = new System.Drawing.Point(3, 30);
-            this.cbSwitchTable.Name = "cbSwitchTable";
-            this.cbSwitchTable.Size = new System.Drawing.Size(104, 21);
-            this.cbSwitchTable.TabIndex = 7;
-            // 
-            // Form1
+            // QLHTForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -403,7 +433,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "QLHTForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý hệ thống";
             this.menuStrip1.ResumeLayout(false);
@@ -455,6 +485,10 @@
         private System.Windows.Forms.Button btnTable14;
         private System.Windows.Forms.Button btnTable15;
         private System.Windows.Forms.ComboBox cbSwitchTable;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
     }
 }
 

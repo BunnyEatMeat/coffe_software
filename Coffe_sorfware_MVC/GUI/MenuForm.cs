@@ -107,5 +107,10 @@ namespace GUI
             loadDanhSachMonDataGridView();
         }
 
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
     }//end
 }
