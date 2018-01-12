@@ -80,11 +80,27 @@ namespace GUI
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Tong so tien la " + thanhToan + "vnd.");
-            lsvBill.Items.Clear();
-            thanhToan = 0;
+            txtTongTien.Text = thanhToan.ToString();
         }
 
+        private void btnThanhToan_Click(object sender, EventArgs e)
+        {
+            int tienKD;
+            if (!int.TryParse(txtSoTienKhachDua.Text, out tienKD))
+            {
+                MessageBox.Show("Số tiền nhập sai!");
+                txtSoTienKhachDua.Text = "0";
+            }
+            
+            int tienthoi = 0;
+            tienthoi = tienKD - thanhToan;
+            if (tienthoi < 0)
+                txtTienThoi.Text = "Đưa không đủ";
+            else
+                txtTienThoi.Text = tienthoi.ToString();
+
+            lsvBill.Clear();
+        }
 
     }//end
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditMenu));
             this.btnOK = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -40,6 +41,7 @@
             // 
             // btnOK
             // 
+            this.btnOK.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnOK.Location = new System.Drawing.Point(57, 128);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(105, 24);
@@ -77,6 +79,7 @@
             // 
             // btnCancel
             // 
+            this.btnCancel.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnCancel.Location = new System.Drawing.Point(185, 128);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(105, 24);
@@ -114,6 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SaddleBrown;
             this.ClientSize = new System.Drawing.Size(311, 164);
             this.Controls.Add(this.txtGia);
             this.Controls.Add(this.cbLoai);
@@ -123,6 +127,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnOK);
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EditMenu";
             this.Text = "EditMenu";
             this.ResumeLayout(false);

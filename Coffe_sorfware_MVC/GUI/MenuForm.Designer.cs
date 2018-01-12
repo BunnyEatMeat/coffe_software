@@ -28,11 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thôngTinTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thôngTinCáNhânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tpBeverage = new System.Windows.Forms.TabPage();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnTim = new System.Windows.Forms.Button();
@@ -57,7 +52,6 @@
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tcAdmin = new System.Windows.Forms.TabControl();
-            this.menuStrip1.SuspendLayout();
             this.tpBeverage.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -67,47 +61,9 @@
             this.tcAdmin.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.adminToolStripMenuItem,
-            this.thôngTinTàiKhoảnToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(732, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // adminToolStripMenuItem
-            // 
-            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
-            this.adminToolStripMenuItem.Text = "Admin";
-            // 
-            // thôngTinTàiKhoảnToolStripMenuItem
-            // 
-            this.thôngTinTàiKhoảnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thôngTinCáNhânToolStripMenuItem,
-            this.đăngXuấtToolStripMenuItem});
-            this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
-            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(123, 20);
-            this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản";
-            // 
-            // thôngTinCáNhânToolStripMenuItem
-            // 
-            this.thôngTinCáNhânToolStripMenuItem.Name = "thôngTinCáNhânToolStripMenuItem";
-            this.thôngTinCáNhânToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.thôngTinCáNhânToolStripMenuItem.Text = "Thông tin cá nhân";
-            // 
-            // đăngXuấtToolStripMenuItem
-            // 
-            this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
-            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
-            // 
             // tpBeverage
             // 
+            this.tpBeverage.BackColor = System.Drawing.Color.DarkGray;
             this.tpBeverage.Controls.Add(this.panel5);
             this.tpBeverage.Controls.Add(this.panel4);
             this.tpBeverage.Controls.Add(this.panel2);
@@ -118,10 +74,10 @@
             this.tpBeverage.Size = new System.Drawing.Size(724, 324);
             this.tpBeverage.TabIndex = 2;
             this.tpBeverage.Text = "Nước uống/ Đồ dùng";
-            this.tpBeverage.UseVisualStyleBackColor = true;
             // 
             // panel5
             // 
+            this.panel5.BackColor = System.Drawing.Color.LightGray;
             this.panel5.Controls.Add(this.btnTim);
             this.panel5.Controls.Add(this.textBox4);
             this.panel5.Controls.Add(this.label2);
@@ -132,12 +88,13 @@
             // 
             // btnTim
             // 
+            this.btnTim.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.btnTim.Location = new System.Drawing.Point(203, 8);
             this.btnTim.Name = "btnTim";
             this.btnTim.Size = new System.Drawing.Size(55, 47);
             this.btnTim.TabIndex = 4;
             this.btnTim.Text = "Tìm";
-            this.btnTim.UseVisualStyleBackColor = true;
+            this.btnTim.UseVisualStyleBackColor = false;
             // 
             // textBox4
             // 
@@ -157,6 +114,7 @@
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.Color.LightGray;
             this.panel4.Controls.Add(this.btnReload);
             this.panel4.Controls.Add(this.btnSua);
             this.panel4.Controls.Add(this.btnXoa);
@@ -167,37 +125,41 @@
             // 
             // btnReload
             // 
+            this.btnReload.BackColor = System.Drawing.Color.OrangeRed;
             this.btnReload.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnReload.Location = new System.Drawing.Point(267, 8);
             this.btnReload.Name = "btnReload";
             this.btnReload.Size = new System.Drawing.Size(107, 47);
             this.btnReload.TabIndex = 7;
             this.btnReload.Text = "Refresh";
-            this.btnReload.UseVisualStyleBackColor = true;
+            this.btnReload.UseVisualStyleBackColor = false;
             this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
             // btnSua
             // 
+            this.btnSua.BackColor = System.Drawing.Color.OrangeRed;
             this.btnSua.Location = new System.Drawing.Point(154, 8);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(107, 47);
             this.btnSua.TabIndex = 6;
             this.btnSua.Text = "Sửa";
-            this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.UseVisualStyleBackColor = false;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnXoa
             // 
+            this.btnXoa.BackColor = System.Drawing.Color.OrangeRed;
             this.btnXoa.Location = new System.Drawing.Point(40, 8);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(108, 47);
             this.btnXoa.TabIndex = 5;
             this.btnXoa.Text = "Xóa";
-            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.UseVisualStyleBackColor = false;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.LightGray;
             this.panel2.Controls.Add(this.cbLoai);
             this.panel2.Controls.Add(this.txtGia);
             this.panel2.Controls.Add(this.label5);
@@ -263,12 +225,13 @@
             // 
             // btnThem
             // 
+            this.btnThem.BackColor = System.Drawing.Color.OrangeRed;
             this.btnThem.Location = new System.Drawing.Point(77, 186);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(130, 47);
             this.btnThem.TabIndex = 1;
             this.btnThem.Text = "Thêm";
-            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.UseVisualStyleBackColor = false;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // panel1
@@ -292,7 +255,7 @@
             this.dgvMenu.Name = "dgvMenu";
             this.dgvMenu.ReadOnly = true;
             this.dgvMenu.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvMenu.Size = new System.Drawing.Size(442, 251);
+            this.dgvMenu.Size = new System.Drawing.Size(442, 248);
             this.dgvMenu.TabIndex = 0;
             // 
             // Column5
@@ -332,14 +295,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SaddleBrown;
             this.ClientSize = new System.Drawing.Size(732, 407);
             this.Controls.Add(this.tcAdmin);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "MenuForm";
             this.Text = "Menu";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.tpBeverage.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
@@ -350,17 +311,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvMenu)).EndInit();
             this.tcAdmin.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem thôngTinTàiKhoảnToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem thôngTinCáNhânToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
         private System.Windows.Forms.TabPage tpBeverage;
         private System.Windows.Forms.TabControl tcAdmin;
         private System.Windows.Forms.Panel panel5;

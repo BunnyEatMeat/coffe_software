@@ -50,6 +50,12 @@
     <Compile Include="EditMenu.Designer.cs">
       <DependentUpon>EditMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="editQLNVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editQLNVForm.Designer.cs">
+      <DependentUpon>editQLNVForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="QLNVForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +85,9 @@
     <EmbeddedResource Include="EditMenu.resx">
       <DependentUpon>EditMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="editQLNVForm.resx">
+      <DependentUpon>editQLNVForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +102,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="QLHTForm.resx">
       <DependentUpon>QLHTForm.cs</DependentUpon>
@@ -118,6 +128,9 @@
       <Project>{024df45e-b2bb-47dc-8c37-0067b1fd68f8}</Project>
       <Name>CONTROLELLER</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_in__code_out__by_mizuwebdesign-d4th7ky.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -39,8 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChucVu.cs" />
+    <Compile Include="ChucVuController.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="MenuController.cs" />
+    <Compile Include="NhanVien.cs" />
+    <Compile Include="NhanVienController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
