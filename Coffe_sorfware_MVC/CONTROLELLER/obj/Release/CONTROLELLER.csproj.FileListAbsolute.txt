@@ -1,0 +1,7 @@
+C:\Users\Rio.Rai\Desktop\coffe_software\Coffe_sorfware_MVC\CONTROLELLER\bin\Release\CONTROLELLER.dll
+C:\Users\Rio.Rai\Desktop\coffe_software\Coffe_sorfware_MVC\CONTROLELLER\bin\Release\CONTROLELLER.pdb
+C:\Users\Rio.Rai\Desktop\coffe_software\Coffe_sorfware_MVC\CONTROLELLER\bin\Release\MODEL.dll
+C:\Users\Rio.Rai\Desktop\coffe_software\Coffe_sorfware_MVC\CONTROLELLER\bin\Release\MODEL.pdb
+C:\Users\Rio.Rai\Desktop\coffe_software\Coffe_sorfware_MVC\CONTROLELLER\obj\Release\CONTROLELLER.csprojResolveAssemblyReference.cache
+C:\Users\Rio.Rai\Desktop\coffe_software\Coffe_sorfware_MVC\CONTROLELLER\obj\Release\CONTROLELLER.dll
+C:\Users\Rio.Rai\Desktop\coffe_software\Coffe_sorfware_MVC\CONTROLELLER\obj\Release\CONTROLELLER.pdb

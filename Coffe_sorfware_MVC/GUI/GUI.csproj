@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="69024-bunifu_ui_v1.52">
+      <HintPath>..\..\..\..\Desktop\slide năm 3\winform\69024-bunifu_ui_v1.52.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -56,6 +59,13 @@
     <Compile Include="editQLNVForm.Designer.cs">
       <DependentUpon>editQLNVForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuform_2.cs" />
     <Compile Include="QLNVForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +86,12 @@
     <Compile Include="QLHTForm.designer.cs">
       <DependentUpon>QLHTForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="QLTKForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLTKForm.Designer.cs">
+      <DependentUpon>QLTKForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SelectionForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +103,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="editQLNVForm.resx">
       <DependentUpon>editQLNVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.aa.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
@@ -106,6 +128,9 @@
     </Compile>
     <EmbeddedResource Include="QLHTForm.resx">
       <DependentUpon>QLHTForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLTKForm.resx">
+      <DependentUpon>QLTKForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectionForm.resx">
       <DependentUpon>SelectionForm.cs</DependentUpon>
@@ -131,6 +156,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\coffee_in__code_out__by_mizuwebdesign-d4th7ky.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-coffee-cup-logo-template.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-coffee-cup-logo-template1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

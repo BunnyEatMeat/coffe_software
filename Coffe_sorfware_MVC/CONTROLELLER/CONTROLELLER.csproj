@@ -41,11 +41,14 @@
   <ItemGroup>
     <Compile Include="ChucVu.cs" />
     <Compile Include="ChucVuController.cs" />
+    <Compile Include="LoginController.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="MenuController.cs" />
     <Compile Include="NhanVien.cs" />
     <Compile Include="NhanVienController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaiKhoan.cs" />
+    <Compile Include="TaiKhoanController.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MODEL\MODEL.csproj">

@@ -39,5 +39,11 @@ namespace GUI
             frmQLNV qlnvF = new frmQLNV();
             qlnvF.Show();
         }
+
+        private void btnQLTK_Click(object sender, EventArgs e)
+        {
+            QLTKForm f = new QLTKForm();
+            f.Show();
+        }
     }//end
 }

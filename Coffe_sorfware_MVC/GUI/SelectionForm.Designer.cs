@@ -58,6 +58,7 @@
             this.btnQLTK.TabIndex = 1;
             this.btnQLTK.Text = "Quản Lý Tài Khoàn";
             this.btnQLTK.UseVisualStyleBackColor = false;
+            this.btnQLTK.Click += new System.EventHandler(this.btnQLTK_Click);
             // 
             // btnMenu
             // 

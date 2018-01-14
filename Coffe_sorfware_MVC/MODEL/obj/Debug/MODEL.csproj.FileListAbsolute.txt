@@ -3,3 +3,13 @@ C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\bin\Debug\MOD
 C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
 C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\obj\Debug\MODEL.dll
 C:\Users\Rio.Rai\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\obj\Debug\MODEL.pdb
+C:\Users\MyPC\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\bin\Debug\MODEL.dll
+C:\Users\MyPC\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\bin\Debug\MODEL.pdb
+C:\Users\MyPC\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+C:\Users\MyPC\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\obj\Debug\MODEL.dll
+C:\Users\MyPC\Documents\coffe_software\Coffe_sorfware_MVC\MODEL\obj\Debug\MODEL.pdb
+C:\Users\Rio.Rai\Desktop\coffe_software\Coffe_sorfware_MVC\MODEL\bin\Debug\MODEL.dll
+C:\Users\Rio.Rai\Desktop\coffe_software\Coffe_sorfware_MVC\MODEL\bin\Debug\MODEL.pdb
+C:\Users\Rio.Rai\Desktop\coffe_software\Coffe_sorfware_MVC\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+C:\Users\Rio.Rai\Desktop\coffe_software\Coffe_sorfware_MVC\MODEL\obj\Debug\MODEL.dll
+C:\Users\Rio.Rai\Desktop\coffe_software\Coffe_sorfware_MVC\MODEL\obj\Debug\MODEL.pdb
